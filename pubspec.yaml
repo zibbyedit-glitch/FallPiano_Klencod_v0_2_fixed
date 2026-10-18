@@ -1,0 +1,22 @@
+name: fall_piano
+description: Fall Piano rhythm game
+publish_to: 'none'
+version: 0.2.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.1.7
+  just_audio: ^0.9.42
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
